@@ -22,7 +22,7 @@ app.get('/twitter', (req,res)=>{
 })
 
 app.get('/login', (req,res)=>{
-    res.send('<h1>hello from login</h1>');
+    res.send('<h1>hello from login page</h1>');
 });
 
 app.get('/github', (req,res)=>{
